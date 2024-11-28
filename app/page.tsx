@@ -3,7 +3,7 @@ import Countdown from "./components/Countdown";
 
 export default function Home() {
   return (
-    <div className='grid justify-center place-content-center md:gap-y-20 gap-y-8 w-screen h-screen text-[#c01101] select-none'>
+    <div className='grid justify-center place-content-center md:gap-y-20 gap-y-8 w-screen min-h-[100vh] text-[#c01101] select-none'>
       <div className=''>
         <p className='md:text-9xl text-6xl text-center'>HURRY<br/>UP<br/>TOMORROW</p>
       </div>
