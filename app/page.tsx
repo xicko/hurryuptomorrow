@@ -1,10 +1,15 @@
 import Link from "next/link";
 import Countdown from "./components/Countdown";
+import RotatingSquare from "./components/RotatingSquare";
 
 export default function Home() {
   return (
     <section className="grid justify-center place-content-center md:gap-y-20 gap-y-8 w-full h-[100dvh] text-[#c01101] animate-subtleGlow select-none">
-      <p className="md:text-9xl text-6xl text-center">
+      
+      <RotatingSquare />
+      
+      
+      <p className="md:text-9xl text-6xl text-center z-50">
         HURRY
         <br />
         UP

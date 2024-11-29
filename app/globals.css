@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .perspective {
+    perspective: 1000px;
+  }
+
+  .transform-style-preserve {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}
+
+
 @font-face {
   font-family: 'Impact';
   src: url('/impact/impact.woff') format(woff);
