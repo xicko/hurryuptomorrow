@@ -20,7 +20,7 @@ export default function Home() {
       <Countdown date={`2025-01-24T00:00:00`} />
 
       <div className="fixed font-[Helvetica] font-normal text-sm bottom-0 px-4 py-4">
-        All media content, images, and assets are the property of <Link href="https://theweeknd.com/" target="_blank">The Weeknd</Link>, XO Records, <Link href='https://www.republicrecords.com/' target="_blank">Republic Records</Link>, and <Link href='https://www.universalmusic.com/' target="_blank">Universal Music Group</Link>.
+        All media content, images, and assets are the property of <Link href="https://theweeknd.com/" target="_blank">The Weeknd</Link>, XO / <Link href='https://www.republicrecords.com/' target="_blank">Republic Records</Link>, and <Link href='https://www.universalmusic.com/' target="_blank">Universal Music Group</Link>.
         <br />
         No copyright infringement is intended.
       </div>
