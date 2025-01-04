@@ -10,7 +10,7 @@ const RotatingCube = () => {
           {/* Front Side - First Image */}
           <div className="absolute w-full h-full transform rotate-y-0">
             <Image
-              src="/backalt.webp" // Replace with your first image path
+              src="/backalt.webp"
               alt="Front Image"
               width={1000}
               height={1000}
@@ -22,7 +22,7 @@ const RotatingCube = () => {
           {/* Back Side - Second Image */}
           <div className="absolute w-full h-full transform rotate-y-180 backface-hidden">
             <Image
-              src="/front.webp" // Replace with your second image path
+              src="/front.webp"
               alt="Back Image"
               width={1000}
               height={1000}
